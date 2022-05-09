@@ -15,10 +15,10 @@ public class Test2StatePattern {
 	@Test
 	public void testBookStartsAtOnShelfState() {
 		// An example unit test for problem 1
-        /* Uncomment when ready to work on Problem 2
+        
 		LibraryBook book = new LibraryBook("Making a Statement");
 		assertTrue(book.getState() == OnShelf.getInstance());
-		*/
+		
 	}
 
 	@Test
@@ -28,7 +28,7 @@ public class Test2StatePattern {
 		 * It is not guaranteed to be the highest quality/comprehensive.
 		 */
 
-		/* Uncomment when ready to work on P2
+		
 		LibraryBook book = new LibraryBook("Design Patterns");
 		book.returnIt();
 		book.shelf();
@@ -58,6 +58,5 @@ public class Test2StatePattern {
 			}, 
 			LibraryLogger.getInstance().getWrittenLines()
 		);
-		*/
 	}
 }

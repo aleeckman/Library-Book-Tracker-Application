@@ -23,7 +23,7 @@ public class Test3ObserverPattern {
 		 * It is not guaranteed to be the highest quality/comprehensive
          */
         
-        /* Uncomment when ready to work on P3
+        
 		LibraryBook book1 = new LibraryBook("Design Patterns");
 		LibraryBook book2 = new LibraryBook("Deep Learning");
 		
@@ -83,6 +83,5 @@ public class Test3ObserverPattern {
 			}, 
 			LibraryLogger.getInstance().getWrittenLines()
 		);
-        */
 	}
 }

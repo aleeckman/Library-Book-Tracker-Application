@@ -1,5 +1,8 @@
 package hw1;
 
 public class BadOperationException extends Exception {
-    // TODO HW1 P2
+    
+    public BadOperationException(String methodName, String stateName) {
+        super("BadOperationException - Can't use " + methodName + " in " + stateName + " state");
+    }
 }
